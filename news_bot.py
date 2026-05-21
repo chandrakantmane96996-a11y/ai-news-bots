@@ -1,4 +1,3 @@
-```python
 import requests
 import os
 
@@ -28,4 +27,5 @@ else:
     for article in articles[:3]:
         msg = f"<b>{article['title']}</b>\n\n{article['description']}\n\n{article['url']}"
         send_telegram(msg)
-```
+
+
